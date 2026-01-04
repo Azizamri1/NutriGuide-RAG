@@ -1,0 +1,69 @@
+# NutriGuide RAG Corpus Manifest
+# Each entry documents one official nutrition source.
+# Use 2-space indentation; avoid tabs.
+
+- id: usda_dietary_guidelines_2020_2025
+  title: Dietary Guidelines for Americans, 2020–2025
+  source: U.S. Department of Agriculture / U.S. Department of Health and Human Services
+  year: 2020
+  path: data/core_guidelines/Dietary_Guidelines_for_Americans-2020-2025.pdf
+  topics: [general_nutrition, food_groups, life_stages]
+  license: public_domain
+  notes: >
+    Core U.S. reference on healthy dietary patterns for all life stages. 
+    Text-based and well-structured; retain page numbers for citations.
+
+- id: dga_executive_summary_2020_2025
+  title: Dietary Guidelines for Americans, 2020–2025 – Executive Summary
+  source: U.S. Department of Agriculture / U.S. Department of Health and Human Services
+  year: 2020
+  path: data/summaries/DGA_2020-2025_ExecutiveSummary_English.pdf
+  topics: [overview, key_guidelines, summary]
+  license: public_domain
+  notes: >
+    Condensed version (4 pages) summarizing the four core dietary guidelines 
+    and nutrient limits (sodium, sugar, saturated fat). Ideal for quick retrieval.
+
+- id: who_maternal_nutrition_2016
+  title: Good Maternal Nutrition – The Best Start in Life
+  source: World Health Organization (Europe)
+  year: 2016
+  path: data/core_guidelines/WHO_ Maternal_Nutrition.pdf
+  topics: [maternal_health, pregnancy, lactation, micronutrients, obesity_prevention]
+  license: who_open
+  notes: >
+    Text-based with tables; focus on maternal and infant nutrition, micronutrient
+    deficiencies, and early-life interventions. Retain page numbers for metadata.
+
+- id: who_sodium_intake_2012
+  title: WHO Guideline – Sodium Intake for Adults and Children
+  source: World Health Organization
+  year: 2012
+  path: data/nutrient_specific/WHO_Sodium_intake_child_and_adult.pdf
+  topics: [sodium, hypertension, cardiovascular_disease, blood_pressure, guideline]
+  license: who_open
+  notes: >
+    Evidence-based recommendations to limit sodium to <2g/day (≈5g salt/day). 
+    Includes adult and child targets, evidence strength, and public health use cases.
+
+- id: who_sugars_intake_2015
+  title: WHO Guideline – Sugars Intake for Adults and Children
+  source: World Health Organization
+  year: 2015
+  path: data/nutrient_specific/WHO_Sugar_intake_child_and_adult.pdf
+  topics: [sugars, dental_caries, obesity, energy_balance, guideline]
+  license: who_open
+  notes: >
+    Recommends limiting free sugars to <10% of total energy intake (ideally <5%).
+    Focus on obesity and dental health outcomes. Text-based; retain citations.
+
+- id: who_saturated_trans_fat_2023
+  title: WHO Guideline – Saturated Fatty Acid and Trans-Fatty Acid Intake for Adults and Children
+  source: World Health Organization
+  year: 2023
+  path: data/nutrient_specific/WHO_SaturatedFat_intake_child_and_adult.pdf
+  topics: [saturated_fats, trans_fats, cardiovascular_disease, cholesterol, guideline]
+  license: who_open
+  notes: >
+    Most recent WHO guideline (2023). Recommends limiting saturated fat to <10%
+    and eliminating industrial trans fats. Provides mechanistic and epidemiologic evidence.
